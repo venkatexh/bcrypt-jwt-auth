@@ -8,7 +8,7 @@ const errorHandler = require("./handlers/error")
 const authRoutes = require("./routes/auth")
 
 
-const PORT = process.env.PORT | 3000
+const PORT = 3001
 
 app.use(cors())
 app.use(bodyParser.json())
